@@ -1,0 +1,109 @@
+<%- include('partials/header.ejs') %>  
+  
+        <header>
+            <div>
+                <h1>Computer Vision</h1>
+            </div>
+        </header>
+        <div class="top-menu">
+            <nav>
+                <a href="index.html">Home</a>
+                <a href="computervision.html"><strong>Computer Vision</strong></a>
+                <a href="speechrecognition.html">Speech Recognition</a>
+                <a href="machinelearning.html">Machine Learning</a>
+                <a href="sources.html">Find Out More</a>
+            </nav>
+            <br />
+            <br />
+        </div>
+        <main>
+            <div class="grid">
+                <h2>What Is Computer Vision?</h2>
+                <div class="grid-item grid-img">
+                    <img src="img/pepper_robot.jpg" alt="Pepper the Robot" />
+                </div>
+                
+                <div class="grid-item">
+                        <p>
+                            <strong>
+                            "In which we connect the computer to the raw, 
+                            unwashed world through the eyes of a camera"
+                            </strong>
+                        </p>
+                        <p>
+                            <strong>
+                            ~ Stuart Russell and Peter Norvig, 
+                            Artificial Intelligence: A Modern Approach (4th Edition)
+                            </strong>
+                        </p>
+                    
+                    <br />
+                    <p>
+                        Computer Vision (CV) is the field of making computers
+                        "see" the world as we do, by training a computer to understand 
+                        digital images and videos. It is a sub field of Machine learning, 
+                        which is itself a sub field of Artificial Intelligence.
+                    </p>
+                    <br />
+                    <br />
+                    <h2>So, how does a computer see?</h2>
+                    <br />
+                    <p>
+                        Its harder than you think. Humans have evolved the way they see
+                        and interpret the world through evolution over the span of human 
+                        history. We are able to recognize objects, faces, and actions, without
+                        much though about it.
+                    </p>
+                    <p>
+                        To make a computer have "sight" it must first learn how to identify 
+                        and classify objects. Machine Learning has made this process 
+                        more accessible. Modern computer vision techniques have a 99% 
+                        accuracy rate, making them more accurate than humans.
+                    </p>
+                    <br />
+                    <br />
+                    <h2>What makes it so hard to train a computer to see?</h2>
+                    <br />
+                    <p>
+                        Well, to start, we don't fully understand how human sight 
+                        works. We understand that the human brain abstracts what it sees
+                        into categories and names those categories with labels. 
+                    </p>
+                    <br />
+                    <br />
+                    <h2>What are the challenges?</h2>
+                    <br />
+                    <p>
+                        <strong>Object Classification:</strong> How can the object in the image be categorized?
+                        <br />
+                        <strong>Object Identification:</strong> What type of object is located in the image?
+                        <br />
+                        <strong>Object Verification:</strong> Is there an object in the image? Is that object part of one of the known categorizes?
+                        <br />
+                        <strong>Object Detection:</strong> Where are the objects spacially located within the image?
+                        <br />
+                        <strong>Object Landmark Detection:</strong> What are the defining characteristics of the object?
+                        <br />
+                        <strong>Object Segmentation:</strong> What are the boundaries of the object? (e.g. the object outline)
+                        <br />
+                        <strong>Object Recognition:</strong> A combination of many of the previous challenges combined.
+                    </p>
+                </div>
+            </div>
+        </main>
+        
+        <br />
+        <br />
+        <div class="bottom-menu">
+            <nav>
+                <a href="index.html">Home</a>
+                <a href="computervision.html"><strong>Computer Vision</strong></a>
+                <a href="speechrecognition.html">Speech Recognition</a>
+                <a href="machinelearning.html">Machine Learning</a>
+                <a href="sources.html">Find Out More</a>
+            </nav>
+        </div>
+        <br />
+        <br />
+        
+<%- include('partials/footer.ejs') %>
