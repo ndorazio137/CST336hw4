@@ -5,17 +5,9 @@
                 <h1>Computer Vision</h1>
             </div>
         </header>
-        <div class="top-menu">
-            <nav>
-                <a href="index.html">Home</a>
-                <a href="computervision.html"><strong>Computer Vision</strong></a>
-                <a href="speechrecognition.html">Speech Recognition</a>
-                <a href="machinelearning.html">Machine Learning</a>
-                <a href="sources.html">Find Out More</a>
-            </nav>
-            <br />
-            <br />
-        </div>
+        
+        <%- include('partials/topnav.ejs') %>
+                
         <main>
             <div id="sources">
                 <div id="source-header">
@@ -33,20 +25,21 @@
                     </ul>
                 <div>
             </div>
+            
+            <br />
+            <br />
+            
+            <div id="contributors">
+                <div id="contributors-header">
+                    <p>Fake Contributors</p>
+                </div>
+                <div id="contributors-list">
+                    <ul>
+                        <li><a href="#">Fake Name</a></li>
+                    </ul>
+                <div>
+            </div>
         </main>
         
-        <br />
-        <br />
-        <div class="bottom-menu">
-            <nav>
-                <a href="index.html">Home</a>
-                <a href="computervision.html"><strong>Computer Vision</strong></a>
-                <a href="speechrecognition.html">Speech Recognition</a>
-                <a href="machinelearning.html">Machine Learning</a>
-                <a href="sources.html">Find Out More</a>
-            </nav>
-        </div>
-        <br />
-        <br />
-        
+<%- include('partials/bottomnav.ejs') %>        
 <%- include('partials/footer.ejs') %>

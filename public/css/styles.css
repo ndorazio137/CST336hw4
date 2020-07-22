@@ -79,14 +79,14 @@ p {
     margin-right: 10vw;
 }
 
-#sources {
+#sources, #contributors {
     width: 100%;
     display: grid;
     grid-template-columns: auto;
     justify-content: center;
 }
 
-#source-header {
+#source-header, #contributors-header {
     text-decoration: underline;
     text-align: center;
 }

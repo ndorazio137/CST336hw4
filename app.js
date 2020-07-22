@@ -1,27 +1,28 @@
 const express = require("express");
+const faker = require('faker');
 const app = express();
 app.engine('html', require('ejs').renderFile);
 app.use(express.static("public"));
 
 //routes
 app.get("/", function(req, res) {
-    res.render("index.html");
+    res.render("index.ejs");
 });
 
-app.get("/computervision.html", function(req, res){
-    res.render("computervision.html");
+app.get("/computervision", function(req, res){
+    res.render("computervision.ejs");
 });
 
-app.get("/speechrecognition.html", function(req, res) {
-    res.render("speechrecognition.html");
+app.get("/speechrecognition", function(req, res) {
+    res.render("speechrecognition.ejs");
 });
 
-app.get("/machinelearning.html", function(req, res){
-    res.render("machinelearning.html");
+app.get("/machinelearning", function(req, res){
+    res.render("machinelearning.ejs");
 });
 
-app.get("/sources.html", function(req, res){
-    res.render("sources.html");
+app.get("/sources", function(req, res){
+    res.render("sources.ejs");
 });
 
 // starting server

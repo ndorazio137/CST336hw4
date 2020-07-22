@@ -5,17 +5,9 @@
                 <h1>Machine Learning</h1>
             </div>
         </header>
-        <div class="top-menu">
-            <nav>
-                <a href="index.html">Home</a>
-                <a href="computervision.html">Computer Vision</a>
-                <a href="speechrecognition.html">Speech Recognition</a>
-                <a href="machinelearning.html"><strong>Machine Learning</strong></a>
-                <a href="sources.html">Find Out More</a>
-            </nav>
-            <br />
-            <br />
-        </div>
+       
+        <%- include('partials/topnav.ejs') %>
+               
         <main>
             <div class="grid">
                 <h2>What Is Machine Learning?</h2>
@@ -69,18 +61,5 @@
             </div>
         </main>
         
-        <br />
-        <br />
-        <div class="bottom-menu">
-            <nav>
-                <a href="index.html">Home</a>
-                <a href="computervision.html">Computer Vision</a>
-                <a href="speechrecognition.html">Speech Recognition</a>
-                <a href="machinelearning.html"><strong>Machine Learning</strong></a>
-                <a href="sources.html">Find Out More</a>
-            </nav>
-        </div>
-        <br />
-        <br />
-        
+<%- include('partials/bottomnav.ejs') %>        
 <%- include('partials/footer.ejs') %>
